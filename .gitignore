@@ -1,0 +1,42 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# dependencies
+node_modules/
+
+#enf files (credentials)
+
+#reports
+reports/
+allure-results/
+allure-report/
+playwright-report/
+test-results/
+
+# build
+dist/
+
+#Authentication
+src/data/auth.json
+
+#OS Files
+.DS_Store
+Thumbs.db
+
+#IDE
+.vscode/
+.idea/
+
+#logs
+*.logs
+npm-debug.log*
+
+#misc
+*.tgz
+
